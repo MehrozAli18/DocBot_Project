@@ -1,0 +1,10 @@
+# DocBot - Python dependencies
+# Install with: pip install -r requirements.txt
+
+streamlit==1.60.0            # web interface
+langchain-text-splitters     # chunking documents into smaller pieces
+faiss-cpu                    # vector database for similarity search
+pypdf                        # reading text out of PDF files
+sentence-transformers        # open-source embedding model (Hugging Face)
+scikit-learn                 # used only for the offline TF-IDF demo/fallback mode
+openai                       # LLM used to generate the final answer (needs OPENAI_API_KEY)
