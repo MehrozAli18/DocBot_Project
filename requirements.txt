@@ -8,3 +8,4 @@ pypdf                        # reading text out of PDF files
 sentence-transformers        # open-source embedding model (Hugging Face)
 scikit-learn                 # used only for the offline TF-IDF demo/fallback mode
 openai                       # LLM used to generate the final answer (needs OPENAI_API_KEY)
+python-dotenv
